@@ -20,7 +20,7 @@
         }
     </style>
 
-    <section>
+    <section class="bg-light ">
         <div class="container mt-5 mb-5">
 
             <div class="row g-4">
@@ -93,7 +93,7 @@
                         <div class="col-sm-6 col-md-12">
                             <div class="bg-grad rounded-4 h-100 w-100 p-5 text-start">
                                 <span class="text-white">Our goal:</span>
-                                <h3 class="text-white">“Be open to new ideas and approaches. Develop your problem-solving skills.”</h3>
+                                <h3 class="text-black">“Be open to new ideas and approaches. Develop your problem-solving skills.”</h3>
                             </div>
                         </div>
                         <!-- Image -->
@@ -107,7 +107,109 @@
         </div>
     </section>
 
-    <section class="bg-light position-relative overflow-hidden">
+    <section class="pt-0 pt-lg-5 pb-5">
+        <div class="container">
+            <!-- Title -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2 class="mb-0">Welcome back user!</h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card START -->
+                <div class="col-xl-8">
+                    <div class="card p-2 bg-transparent border">
+                        <div class="row g-0">
+                            <div class="col-md-3">
+                                <img src="assets/images/courses/4by3/01.jpg" class="rounded-2" alt="Card image">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                    <!-- Badge and dropdown -->
+                                    <div class="d-flex justify-content-between">
+                                        <!-- Badge -->
+                                        <div>
+                                            <a href="#" class="badge text-bg-primary">Marketing</a>
+                                            <a href="#" class="badge text-bg-dark">Beginner</a>
+                                        </div>
+
+                                        <!-- Dropdown -->
+                                        <div class="dropdown flex-shrink-0">
+                                            <a href="#" class="text-primary-hover text-secondary p-0 mb-0" id="cardShareAction2" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="bi bi-three-dots-vertical"></i>
+                                            </a>
+                                            <!-- Card share action dropdown menu -->
+                                            <ul class="dropdown-menu dropdown-menu-end min-w-auto" aria-labelledby="cardShareAction2">
+                                                <li><a class="dropdown-item" href="#">Upgrade Course</a></li>
+                                                <li><a class="dropdown-item" href="#">Rate Course</a></li>
+                                                <li><a class="dropdown-item" href="#">Share course</a></li>
+                                                <li><a class="dropdown-item" href="#">Unroll</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Title -->
+                                    <h5 class="card-title mt-3 mb-0"><a href="#">The Complete Digital Marketing Course - 12 Courses in 1</a></h5>
+
+                                    <!-- Progress item -->
+                                    <div class="overflow-hidden mt-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="uppercase">Overall Progress</h6>
+                                            <span class="h6 mb-0">20%</span>
+                                        </div>
+                                        <div class="progress progress-sm bg-success bg-opacity-10">
+                                            <div class="progress-bar bg-success aos aos-init aos-animate" role="progressbar" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Button and list -->
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <!-- List -->
+                                        <ul class="nav nav-divider small mb-0">
+                                            <li class="nav-item h6 mb-0">Week 2</li>
+                                            <li class="nav-item">Lecture 12</li>
+                                        </ul>
+
+                                        <!-- Dropdown -->
+                                        <a href="#" class="btn btn-sm btn-primary-soft mb-0">Continue</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card END -->
+
+                <!-- Card START -->
+                <div class="col-xl-4">
+                    <div class="card card-body bg-transparent border">
+                        <h5 class="mb-3">Schedule exam</h5>
+                        <!-- List -->
+                        <div class="d-flex align-items-center position-relative">
+                            <!-- Video button -->
+                            <a href="#" class="btn btn-primary-soft btn-round mb-0">
+                                <i class="fas fa-question-circle"></i>
+                            </a>
+                            <!-- Content -->
+                            <div class="ms-3">
+                                <a href="#" class="d-inline-block text-truncate mb-0 h6 fw-normal stretched-link">Quiz - Digital Marketing</a>
+                                <ul class="nav nav-divider small mb-0">
+                                    <li class="nav-item">12 June</li>
+                                    <li class="nav-item">20 pts</li>
+                                    <li class="nav-item">30 min</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card END -->
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 pb-5 bg-light position-relative overflow-hidden">
         <!-- SVG decoration -->
         <figure class="position-absolute bottom-0 end-0 mb-n5">
             <svg width="822.2px" height="301.9px" viewBox="0 0 822.2 301.9">
@@ -642,5 +744,80 @@
 
         </div>
     </section>
+
+    <!-- Testimonials Section -->
+    <section class="pt-5 pb-5 position-relative">
+        <div class="container position-relative">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="display-5 fw-bold mb-3">What Our Students Say</h2>
+                    <p class="lead">Don't just take our word for it - hear from some of our amazing students.</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/avatar/01.jpg" class="rounded-circle me-3" width="60" alt="">
+                            <div>
+                                <h6 class="mb-0">Sarah Johnson</h6>
+                                <small class="text-muted">Graphic Design Student</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"The courses at Eduport completely transformed my career. The instructors are knowledgeable and the platform is so easy to use."</p>
+                        <div class="text-warning mt-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/avatar/02.jpg" class="rounded-circle me-3" width="60" alt="">
+                            <div>
+                                <h6 class="mb-0">Michael Chen</h6>
+                                <small class="text-muted">Data Science Student</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"I was able to land my dream job after completing the Data Science program. The hands-on projects were incredibly valuable."</p>
+                        <div class="text-warning mt-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/avatar/03.jpg" class="rounded-circle me-3" width="60" alt="">
+                            <div>
+                                <h6 class="mb-0">David Wilson</h6>
+                                <small class="text-muted">Web Development Student</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"The curriculum is well-structured and the community support is fantastic. I learned more in 3 months than I did in 2 years of college."</p>
+                        <div class="text-warning mt-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <?php include 'layouts/footer.php'; ?>
 </body>

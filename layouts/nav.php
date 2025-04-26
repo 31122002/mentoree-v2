@@ -33,8 +33,18 @@
                     </ul>
                 </li>
 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="mentorsDropdown" role="button" data-bs-toggle="dropdown">
+                       Accounts
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="instructor.php">Instructor</a></li>
+                        <li><a class="dropdown-item" href="become-mentor.php">Student</a></li>
+                    </ul>
+                </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="resources.php">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
 
                 <li class="nav-item">
